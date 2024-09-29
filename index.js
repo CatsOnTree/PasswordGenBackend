@@ -12,7 +12,7 @@ connectDB()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: 'https://passgenmru.netlify.app/', // Ensure this matches your client URL
+    origin: 'https://passgenmru.netlify.app', // Ensure this matches your client URL
     methods: 'GET, POST, PUT, DELETE',
     allowedHeaders: 'Content-Type, Authorization',
     credentials: true,
